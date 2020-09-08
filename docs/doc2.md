@@ -1,6 +1,11 @@
 ---
 id: doc2
-title: Document Number 2
+title: test page
+sidebar_label: test
+slug: /
 ---
-
-This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com/)
+```
+npm run start
+```
+this page is used to test.
+# 123

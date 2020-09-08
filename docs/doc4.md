@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: doc4
 title: test page
 sidebar_label: test
 slug: /
