@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: test page
-sidebar_label: test
+title: test page 1
+sidebar_label: test1
 slug: /
 ---
 ```

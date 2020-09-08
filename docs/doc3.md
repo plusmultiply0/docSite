@@ -1,11 +1,7 @@
 ---
 id: doc3
-title: test page
-sidebar_label: test
+title: test page 3
+sidebar_label: test3
 slug: /
 ---
-```
-npm run start
-```
-this page is used to test.
-# 123
+css css3 css2.1

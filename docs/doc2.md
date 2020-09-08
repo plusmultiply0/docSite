@@ -1,11 +1,7 @@
 ---
 id: doc2
-title: test page
-sidebar_label: test
+title: test page 2
+sidebar_label: test2
 slug: /
 ---
-```
-npm run start
-```
-this page is used to test.
-# 123
+text 222222222
