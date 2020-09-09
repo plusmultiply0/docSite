@@ -1,12 +1,14 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Kim Zhou的文档小站',
+  tagline: 'coding for fun~',
+  url: 'https://docsite-on-render.onrender.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
+  onDuplicateRoutes: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'plusmultiply0', // Usually your GitHub org/user name.
+  projectName: 'docSite', // Usually your repo name.
+  // githubHost: ,
   
   themeConfig: {
     navbar: {
@@ -76,6 +78,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  plugins:[],
+  themes: [],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -98,4 +102,8 @@ module.exports = {
       },
     ],
   ],
+  customFields:{},
+  script:[],
+  ssrTemplate:[],
+  stylesheets:[],
 };
