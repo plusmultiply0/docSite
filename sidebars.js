@@ -1,8 +1,12 @@
 module.exports = {
   someSidebar: {
-    'Docusaurus': ['doc1'],
-    'HTML':['doc2'],
-    'CSS':['doc3'],
-    'JavaScript':['doc4'],
+    'OverView': ['overview'],
+    'HTML': ['html-overview'],
+    'CSS': ['css-overview'],
+    'JavaScript': ['js-overview'],
+    'React':['react'],
+    '计算机基础':['os','ds','cw'],
+    '造轮子合集':['circles'],
+    'LeetCode 题解':['leetcode'],
   },
 };

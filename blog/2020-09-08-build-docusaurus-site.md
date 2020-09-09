@@ -11,6 +11,8 @@ tags: [build,docusaurus,note]
 This blog is to keep notes about how to build [**Docusaurus 2 alpha**](https://v2.docusaurus.io/) from the ground.
 
 <!--truncate-->
+根据文档，网站已成功部署在 Render 提供的静态主机上。
 
-现在还没有内容;)
-试试添加内容。可以的
+
+**参考链接：**
+- [关闭本地服务器被占用端口](https://stackoverflow.com/questions/49022731/keep-getting-something-is-already-running-on-port-3000-when-i-do-npm-start-o)
