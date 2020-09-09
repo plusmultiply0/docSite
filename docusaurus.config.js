@@ -12,7 +12,7 @@ module.exports = {
   
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'My DocSite',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -26,7 +26,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/plusmultiply0/docSite',
           label: 'GitHub',
           position: 'right',
         },
@@ -39,25 +39,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Docusaurus',
+              label: 'OverView',
               to: 'docs/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
@@ -70,12 +53,12 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/plusmultiply0/docSite',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} docSite, Inc. Built with Docusaurus. Power by Render`,
     },
   },
   plugins:[],
@@ -103,7 +86,7 @@ module.exports = {
     ],
   ],
   customFields:{},
-  script:[],
-  ssrTemplate:[],
+  // script:[],
+  // ssrTemplate:'',
   stylesheets:[],
 };
