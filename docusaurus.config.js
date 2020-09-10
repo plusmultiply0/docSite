@@ -34,32 +34,37 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'OverView',
-              to: 'docs/',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/plusmultiply0/docSite',
-            },
-          ],
-        },
-      ],
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'OverView',
+      //         to: 'docs/',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: 'blog',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/plusmultiply0/docSite',
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} docSite, Inc. Built with Docusaurus. Power by Render`,
     },
+    // algolia:{
+    //   apiKey:'',
+    //   indexName:'',
+    //   searchParameters:'',
+    // }
   },
   plugins:[],
   themes: [],
@@ -78,6 +83,10 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // feedOptions:{
+          //   type:'all',
+          //   copyright: `Copyright © ${new Date().getFullYear()} DocSite, Inc.`,
+          // }
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
