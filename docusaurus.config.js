@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Kim Zhou的文档小站',
   tagline: 'coding for fun~',
-  url: 'https://docsite-on-render.onrender.com/',
+  url: 'https://doc-site.works/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onDuplicateRoutes: 'throw',
@@ -25,6 +25,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to:'docs/about',label:'About',position:'right'},
         {
           href: 'https://github.com/plusmultiply0/docSite',
           label: 'GitHub',

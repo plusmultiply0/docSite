@@ -15,9 +15,13 @@ This blog is to keep notes about how to build [**Docusaurus 2 alpha**](https://v
 
 9.9 新建sidebar，修改文档配置和navbar，footer 内容
 
+9.10 更新部分设置和修改主页部分样式
+
+9.11 更新网站域名和部分设置
+
 todo:
 - 修改主页，底边栏--[参考站点](https://messiahhh.github.io/blog/)
-- 新域名(docsite.me?)--搞cpanel时，网站显示未发送任何数据？| 发了邮件，等待方案
+- 新域名(docsite.me?)--搞cpanel时，网站显示未发送任何数据？| 发了邮件，等待方案 | 需要一个主机/DNS/domain | 在 cloudFlare 上修改域名和对应的解析服务器--更换域名成功 √
 - 找一下网站的logo，图片
 - 搜索功能--后续做（algolia）/安装插件，组件引用？| 按了插件怎么用呢？
 - 写 docusaurus 建站笔记

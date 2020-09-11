@@ -1,6 +1,6 @@
 # DocSite
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/) to keep my notes for front-end and demo.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/) to keep my notes for front-end and demos.
 
 Below are some common commands.
 
