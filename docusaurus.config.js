@@ -12,7 +12,7 @@ module.exports = {
   
   themeConfig: {
     navbar: {
-      title: 'My DocSite',
+      title: 'DocSite',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -59,7 +59,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} docSite, Inc. Built with Docusaurus. Power by Render`,
+      copyright: `Copyright © ${new Date().getFullYear()} docSite, Inc. Built with Docusaurus. Powered by Render`,
     },
     // algolia:{
     //   apiKey:'',
