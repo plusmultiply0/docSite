@@ -2,7 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
@@ -15,17 +15,13 @@ function Button(props){
   )
 }
 
-
-
 function Home() {
-  const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
   return (
     <Layout>
       <div className={styles.main}>
         <div className={styles.top}>
           <p  className={styles.docname}>Kim Zhou 的文档小站</p>
-          <img src="static/img/cover2.jpg" alt="cover" className={styles.pic}/>
+          <img src={useBaseUrl('img/cover2.jpg')} alt="cover" className={styles.pic}/>
           <p className={styles.tagline}>coding for fun~~</p>
         </div>
         <div className={styles.bottom}>
