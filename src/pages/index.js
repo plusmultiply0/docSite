@@ -21,7 +21,8 @@ function Home() {
       <div className={styles.main}>
         <div className={styles.top}>
           <p  className={styles.docname}>Kim Zhou 的文档小站</p>
-          <img src={useBaseUrl('img/cover2.jpg')} alt="cover" className={styles.pic}/>
+          {/* useBaseUrl('img/cover2.jpg') */}
+          <img src={'img/cover2.jpg'} alt="cover" className={styles.pic}/>
           <p className={styles.tagline}>coding for fun~~</p>
         </div>
         <div className={styles.bottom}>
