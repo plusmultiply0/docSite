@@ -58,4 +58,21 @@
   }
 }
 
+@media (max-height:600px){
+  .pic{
+    min-width: 100px;
+  }
+  .button{
+    font-size: 0.9em;
+    margin-top: 2%;
+  }
+  .docname,.tagline{
+    margin:5px 0;
+  }
+  .main{
+    min-height: 320px;
+    min-width: 300px;
+  }
+}
+
 
