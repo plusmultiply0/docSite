@@ -6,7 +6,7 @@ module.exports = {
     'JavaScript': ['js-overview'],
     'React':['react'],
     '计算机基础':['os','ds','cw'],
-    '造轮子合集':['circles'],
+    '造轮子合集': ['carousel'],
     'LeetCode 题解':['leetcode'],
   },
 };
